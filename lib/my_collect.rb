@@ -5,7 +5,8 @@ def my_collect(languages)
     while i < languages.length
       i += 1
       yield(languages[i])
-      language.upcase
-
     end
+    my_collect(collection) do |lang|
+  lang.upcase
+end
   end
