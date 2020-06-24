@@ -4,6 +4,7 @@ def my_collect(languages)
     collection = ['ruby', 'javascript', 'python', 'objective-c']
     while i < languages.length
       i += 1
+      yield(array[i])
     end
   end
 #   my_collect(languages) do |language|
