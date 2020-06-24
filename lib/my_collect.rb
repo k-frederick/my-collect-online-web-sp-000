@@ -6,13 +6,7 @@ def my_collect(languages)
 # end
 #   language.upcase
 #
-    i = 0
-    while i < languages.length
-      collection < yield(languages[i])
-      i += 1
-    end
-    collection
-  end
+
   
 
 # collection = ['ruby', 'javascript', 'python', 'objective-c']
