@@ -3,6 +3,7 @@ def my_collect(languages)
   do |language|
     language.upcase
   end
+end
 #   language.upcase
 #
 #     # i = 0
