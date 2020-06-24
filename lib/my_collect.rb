@@ -1,19 +1,19 @@
 
 def my_collect(languages)
-  my_collect(languages) do |language|
-      language.upcase
-  end
-end
+#   my_collect(languages) do |language|
+#       language.upcase
+#   end
+# end
 #   language.upcase
 #
-#     # i = 0
-#     # while i < languages.length
-#     #   collection << yield(languages[i])
-#     #   i += 1
-#     # end
-#     # collection
-#   end
-#   end
+    i = 0
+    while i < languages.length
+      collection < yield(languages[i])
+      i += 1
+    end
+    collection
+  end
+  end
 
 # collection = ['ruby', 'javascript', 'python', 'objective-c']
 # def my_collect(collection) do |lang|
