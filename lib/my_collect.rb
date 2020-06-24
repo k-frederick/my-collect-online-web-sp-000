@@ -4,7 +4,6 @@ def my_collect(languages)
     collection = []
     while i < languages.length
       i += 1
-      
     end
   end
 #   my_collect(languages) do |language|
