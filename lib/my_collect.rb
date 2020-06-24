@@ -6,6 +6,7 @@ def my_collect(languages) do |language|
       i += 1
       language.upcase
   end
+  collection
 end
 #   language.upcase
 #
